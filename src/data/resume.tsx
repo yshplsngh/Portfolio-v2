@@ -23,7 +23,11 @@ export const DATA = {
         "Prisma",
         "Docker",
         "Redis",
+        "REST APIs",
+        "Tailwind CSS",
         "Java",
+        "Git",
+        "Github"
     ],
     // navbar: [
     //     {href: "/", icon: HomeIcon, label: "Home"}
@@ -127,7 +131,7 @@ export const DATA = {
         {
             title: "Shop Mart",
             href: "https://github.com/yshplsngh/Shop-mart",
-            dates: "June 2023 - Present",
+            dates: "June 2024 - July 2024",
             active: true,
             description:
                 "A Scalable Shopping platform for seamless online shopping experiences. Integrated GoAPI, Biteship, and Xendit APIs for enhanced functionality. ",
@@ -140,11 +144,6 @@ export const DATA = {
                 "Docker"
             ],
             links: [
-                // {
-                //     type: "Website",
-                //     href: "https://magicui.design",
-                //     icon: <Icons.globe className="size-3"/>,
-                // },
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/Shop-mart",
@@ -154,6 +153,60 @@ export const DATA = {
             image: "/shop-mart.png",
             video: "",
         },
+        {
+            title: "Blog Site - Blog Making App",
+            href: "https://github.com/yshplsngh/Blog-Site",
+            dates: "Jan 2024 - Mar 2024",
+            active: true,
+            description:
+                "A Blogging Platform with secure custom authentication using JWT, refresh token rotation, and efficient blog caching powered by RTK Query.",
+            technologies: [
+                "React",
+                "Redux",
+                "RTK-Query",
+                "Typescript",
+                "Node.js",
+                "MongoDB",
+                "TailwindCSS",
+                "JWT"
+            ],
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/yshplsngh/Blog-Site",
+                    icon: <Icons.github className="size-3"/>,
+                },
+            ],
+            image: "/blog-site.png",
+            video: "",
+        },
+        {
+            title: "Screen Recorder",
+            href: "https://github.com/yshplsngh/ScreenRecorder",
+            dates: "Apr 2024 - Apr 2024",
+            active: true,
+            description: "A Browser-based screen recording app allow capturing capture video and audio, with local download features.",
+            technologies: [
+                "React",
+                "Typescript",
+                "TailwindCSS",
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://screen-recorder-amber.vercel.app",
+                    icon: <Icons.globe className="size-3"/>,
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/yshplsngh/ScreenRecorder",
+                    icon: <Icons.github className="size-3"/>,
+                },
+            ],
+            image: "/sr.png",
+            video: "",
+        },
+
         // {
         //     title: "llm.report",
         //     href: "https://llm.report",
