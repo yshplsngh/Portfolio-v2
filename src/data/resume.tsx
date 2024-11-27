@@ -10,7 +10,8 @@ export const DATA = {
         "Software Engineer. Passionate about System Architecture, Databases Internals, Language Internals, and Algorithms.",
     // summary:
     // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-    summary: "Highly motivated and dependable professional with a diverse background in building scalable Web App. Despite limited work experience, I bring a strong work ethic, adaptability, and a commitment to excellence. With a proven track record of reliability and a dedication to continuous learning.",
+    // summary: "Highly motivated and dependable professional with a diverse background in building scalable Web App. Despite limited work experience, I bring a strong work ethic, adaptability, and a commitment to excellence. With a proven track record of reliability and a dedication to continuous learning.",
+    summary:'Seasoned Fullstack Engineer with 1+ years of experience in building WebApps. I excel in building applications from scratch to production-ready. My expertise spans across frontend, backend, and full-stack development, with a small knack for deployment.',
     avatarUrl: "/me.png",
     skills: [
         "React",

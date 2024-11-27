@@ -2,7 +2,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -23,11 +23,11 @@ export default function Page() {
                     yOffset={8}
                     text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
                 />
-                <BlurFadeText
-                    className="max-w-[600px] md:text-xl"
-                    delay={BLUR_FADE_DELAY}
-                    text={DATA.description}
-                />
+                {/*<BlurFadeText*/}
+                {/*    className="max-w-[600px] md:text-xl"*/}
+                {/*    delay={BLUR_FADE_DELAY}*/}
+                {/*    text={DATA.description}*/}
+                {/*/>*/}
               </div>
               {/*<BlurFade delay={BLUR_FADE_DELAY}>*/}
               {/*  <Avatar className="size-28 border">*/}
@@ -39,12 +39,12 @@ export default function Page() {
           </div>
         </section>
         <section id="about">
-          <BlurFade delay={BLUR_FADE_DELAY * 3}>
-            <h2 className="text-xl font-bold">About</h2>
-          </BlurFade>
+          {/*<BlurFade delay={BLUR_FADE_DELAY * 3}>*/}
+          {/*  <h2 className="text-xl font-bold">About</h2>*/}
+          {/*</BlurFade>*/}
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
             <Markdown
-                className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+                className="prose max-w-full text-pretty font-sans text-md text-zinc-600 dark:prose-invert">
               {DATA.summary}
             </Markdown>
           </BlurFade>
