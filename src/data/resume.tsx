@@ -109,7 +109,6 @@ export const DATA = {
                 "Node.js",
                 "PostgreSQL",
                 "Prisma",
-                "TailwindCSS",
                 "Docker",
                 "Redis"
             ],
@@ -140,7 +139,6 @@ export const DATA = {
                 "Typescript",
                 "Node.js",
                 "MongoDB",
-                "TailwindCSS",
                 "Docker"
             ],
             links: [
@@ -151,6 +149,38 @@ export const DATA = {
                 },
             ],
             image: "/shop-mart.png",
+            video: "",
+        },
+        {
+            title: "Task Manager",
+            href: "https://github.com/yshplsngh/Task-Manager",
+            dates: "Dec 2024 - Dec 2024",
+            active: true,
+            description:
+                "A task management app that helps you organize, track, and prioritize your tasks with filters, sorting, and a statistics dashboard.",
+            technologies: [
+                "React",
+                "Redux",
+                "Typescript",
+                "Node.js",
+                "Postgresql",
+                "Prisma",
+                "Docker",
+                'CICD'
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://task.yshplsngh.in",
+                    icon: <Icons.globe className="size-3"/>,
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/yshplsngh/Task-Manager",
+                    icon: <Icons.github className="size-3"/>,
+                },
+            ],
+            image: "/tm.png",
             video: "",
         },
         {
