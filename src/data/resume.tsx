@@ -128,6 +128,30 @@ export const DATA = {
             video:"",
         },
         {
+            title: "Automate",
+            href: "https://github.com/yshplsngh/Automate",
+            dates: "Dec 2024 - Jan 2025",
+            active: true,
+            description: "A powerful automation platform that enables users to create custom workflows and integrate various apps and services seamlessly.",
+            technologies: [
+                "React",
+                "Redux",
+                "Typescript",
+                "Node.js",
+                "PostgreSQL",
+                "Prisma"
+            ],
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/yshplsngh/Automate",
+                    icon: <Icons.github className="size-3"/>,
+                },
+            ],
+            image: "/automate.png",
+            video:"",
+        },
+        {
             title: "Shop Mart",
             href: "https://github.com/yshplsngh/Shop-mart",
             dates: "June 2024 - July 2024",
