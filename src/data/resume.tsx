@@ -9,7 +9,7 @@ export const DATA = {
     description:
         "Software Engineer. Passionate about System Architecture, Databases Internals, Language Internals, and Algorithms.",
     summary: 'Seasoned Fullstack Engineer with experience in building WebApps. I excel in building applications from scratch to production-ready. My expertise spans across frontend, backend, and full-stack development, with a small knack for deployment.',
-    avatarUrl: "/me-avtr.png",
+    avatarUrl: "/me-avtr.jpg",
     skills: [
         "ReactJs",
         "NextJs",
