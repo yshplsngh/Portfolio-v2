@@ -1,4 +1,4 @@
-import {Icons} from "@/components/icons";
+import { Icons } from "@/components/icons";
 
 export const DATA = {
     name: "Yashpal Singh",
@@ -8,21 +8,22 @@ export const DATA = {
     locationLink: "",
     description:
         "Software Engineer. Passionate about System Architecture, Databases Internals, Language Internals, and Algorithms.",
-    summary:'Seasoned Fullstack Engineer with experience in building WebApps. I excel in building applications from scratch to production-ready. My expertise spans across frontend, backend, and full-stack development, with a small knack for deployment.',
-    avatarUrl: "/me.png",
+    summary: 'Seasoned Fullstack Engineer with experience in building WebApps. I excel in building applications from scratch to production-ready. My expertise spans across frontend, backend, and full-stack development, with a small knack for deployment.',
+    avatarUrl: "/me-avtr.png",
     skills: [
-        "React",
-        "Next.js",
+        "ReactJs",
+        "NextJs",
         "Redux",
         "Typescript",
-        "Node.js",
+        "NodeJs",
         "Postgres",
         "knex",
         "Prisma",
-        "Docker",
         "Redis",
+        "Kafka",
+        "Websocket",
+        "Docker",
         "Java",
-        "REST APIs",
         "Tanstack Query",
         "Tailwind CSS",
         "AWS",
@@ -64,18 +65,18 @@ export const DATA = {
     },
 
     work: [
-        // {
-        //     company: "Atomic Finance",
-        //     href: "https://atomic.finance",
-        //     badges: [],
-        //     location: "Remote",
-        //     title: "Bitcoin Protocol Engineer",
-        //     logoUrl: "/atomic.png",
-        //     start: "May 2021",
-        //     end: "Oct 2022",
-        //     description:
-        //         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-        // },
+        {
+            company: "Solytics Partners",
+            href: "https://www.solytics-partners.com/",
+            badges: [],
+            location: "Remote",
+            title: "Frontend Developer Consultant",
+            logoUrl: "/solytics.png",
+            start: "March 2025",
+            end: "Present",
+            description:
+                "Building and Learning",
+        },
     ],
     education: [
         {
@@ -85,15 +86,7 @@ export const DATA = {
             logoUrl: "/gla.png",
             start: "2021",
             end: "2025",
-        },
-        // {
-        //     school: "Buildspace",
-        //     href: "https://buildspace.so",
-        //     degree: "s3, s4, sf1, s5",
-        //     logoUrl: "/buildspace.jpg",
-        //     start: "2023",
-        //     end: "2024",
-        // },
+        }
     ],
     projects: [
         {
@@ -116,16 +109,16 @@ export const DATA = {
                 {
                     type: "Website",
                     href: "https://testimonial.yshplsngh.in",
-                    icon: <Icons.globe className="size-3"/>,
+                    icon: <Icons.globe className="size-3" />,
                 },
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/Feedback-Testimonial",
-                    icon: <Icons.github className="size-3"/>,
+                    icon: <Icons.github className="size-3" />,
                 },
             ],
             image: "/testi.png",
-            video:"",
+            video: "",
         },
         {
             title: "Automate",
@@ -145,11 +138,11 @@ export const DATA = {
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/Automate",
-                    icon: <Icons.github className="size-3"/>,
+                    icon: <Icons.github className="size-3" />,
                 },
             ],
             image: "/automate.png",
-            video:"",
+            video: "",
         },
         {
             title: "Shop Mart",
@@ -169,7 +162,7 @@ export const DATA = {
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/Shop-mart",
-                    icon: <Icons.github className="size-3"/>,
+                    icon: <Icons.github className="size-3" />,
                 },
             ],
             image: "/shop-mart.png",
@@ -196,12 +189,12 @@ export const DATA = {
                 {
                     type: "Website",
                     href: "https://task.yshplsngh.in",
-                    icon: <Icons.globe className="size-3"/>,
+                    icon: <Icons.globe className="size-3" />,
                 },
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/Task-Manager",
-                    icon: <Icons.github className="size-3"/>,
+                    icon: <Icons.github className="size-3" />,
                 },
             ],
             image: "/tm.png",
@@ -228,7 +221,7 @@ export const DATA = {
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/Blog-Site",
-                    icon: <Icons.github className="size-3"/>,
+                    icon: <Icons.github className="size-3" />,
                 },
             ],
             image: "/blog-site.png",
@@ -249,12 +242,12 @@ export const DATA = {
                 {
                     type: "Website",
                     href: "https://screen-recorder-amber.vercel.app",
-                    icon: <Icons.globe className="size-3"/>,
+                    icon: <Icons.globe className="size-3" />,
                 },
                 {
                     type: "Source",
                     href: "https://github.com/yshplsngh/ScreenRecorder",
-                    icon: <Icons.github className="size-3"/>,
+                    icon: <Icons.github className="size-3" />,
                 },
             ],
             image: "/sr.png",
