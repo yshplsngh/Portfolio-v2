@@ -8,7 +8,7 @@ export const DATA = {
     locationLink: "",
     description:
         "Software Engineer. Passionate about System Architecture, Databases Internals, Language Internals, and Algorithms.",
-    summary: 'Seasoned Fullstack Engineer with experience in building WebApps. I excel in building applications from scratch to production-ready. My expertise spans across frontend, backend, and full-stack development, with a small knack for deployment.',
+    summary: 'Seasoned Fullstack Engineer with experience in building E2E WebApps. My expertise spans across frontend, backend with a small knack for deployment.',
     avatarUrl: "/me-avtr.jpg",
     skills: [
         "ReactJs",
