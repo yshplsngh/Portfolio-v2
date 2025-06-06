@@ -11,13 +11,11 @@ export const DATA = {
     summary: 'Seasoned Fullstack Engineer with experience in building E2E WebApps. My expertise spans across frontend, backend with a small knack for deployment.',
     avatarUrl: "/me-avtr.jpg",
     skills: [
-        "ReactJs",
-        "NextJs",
-        "Redux",
         "Typescript",
+        "ReactJs",
+        "Redux",
         "NodeJs",
         "Postgres",
-        "knex",
         "Prisma",
         "Redis",
         "Kafka",
@@ -26,9 +24,8 @@ export const DATA = {
         "Java",
         "Tanstack Query",
         "Tailwind CSS",
-        "AWS",
-        "Vercel",
-        "Github"
+        "MUI",
+        "AWS ec2",
     ],
     // navbar: [
     //     {href: "/", icon: HomeIcon, label: "Home"}
